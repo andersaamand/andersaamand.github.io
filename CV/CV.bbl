@@ -1,0 +1,103 @@
+\begin{thebibliography}{10}
+
+\bibitem{2023Density}
+Anders Aamand, Alexandr Andoni, Justin~Y. Chen, Piotr Indyk, Shyam Narayanan,
+  and Sandeep Silwal.
+\newblock Data structures for density estimation.
+\newblock In {\em Proceedings of the 40th International Conference on Machine
+  Learning}, volume 202 of {\em Proceedings of Machine Learning Research},
+  pages 1--18, 2023.
+
+\bibitem{2023Tiling}
+Anders Aamand, Mikkel Abrahamsen, Peter M.~R. Rasmussen, and Thomas~D. Ahle.
+\newblock Tiling with squares and packing dominos in polynomial time.
+\newblock {\em {ACM} Trans. Algorithms}, 19(3):30:1--30:28, 2023.
+
+\bibitem{2023Decremental}
+Anders Aamand, Adam Karczmarz, Jakub Lacki, Nikos Parotsidis, Peter M.~R.
+  Rasmussen, and Mikkel Thorup.
+\newblock Optimal decremental connectivity in non-sparse graphs.
+\newblock In {\em 50th International Colloquium on Automata, Languages, and
+  Programming, {ICALP} 2023}, volume 261 of {\em LIPIcs}, pages 6:1--6:17,
+  2023.
+
+\bibitem{2023Sorting}
+Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta, and Linda Kleist.
+\newblock Online sorting and translational packing of convex polygons.
+\newblock In {\em Proceedings of the 2023 {ACM-SIAM} Symposium on Discrete
+  Algorithms, {SODA}, 2023}, pages 1806--1833. {SIAM}, 2023.
+
+\bibitem{2023Experts}
+Anders {Aamand}, Justin~Y. {Chen}, Huy~L{\^e} {Nguyen}, and Sandeep {Silwal}.
+\newblock {Improved Space Bounds for Learning with Experts}.
+\newblock {\em arXiv e-prints}, page arXiv:2303.01453, poster at ACDA 2023.
+
+\bibitem{2022NoRepetition}
+Anders Aamand, Debarati Das, Evangelos Kipouridis, Jakob B{\ae}k~Tejs Knudsen,
+  Peter M.~R. Rasmussen, and Mikkel Thorup.
+\newblock No repetition: Fast and reliable sampling with highly concentrated
+  hashing.
+\newblock {\em Proc. {VLDB} Endow.}, 15(13):3989--4001, 2022.
+
+\bibitem{2022Monotone}
+Anders Aamand, Noga Alon, Jakob B{\ae}k~Tejs Houen, and Mikkel Thorup.
+\newblock {On sums of monotone random integer variables}.
+\newblock {\em Electronic Communications in Probability}, 27(none):1 -- 8,
+  2022.
+
+\bibitem{2022Matching}
+Anders Aamand, Justin~Y. Chen, and Piotr Indyk.
+\newblock (optimal) online bipartite matching with degree information.
+\newblock In {\em NeurIPS}, 2022.
+
+\bibitem{2022Weisfeiler}
+Anders Aamand, Justin~Y. Chen, Piotr Indyk, Shyam Narayanan, Ronitt Rubinfeld,
+  Nicholas Schiefer, Sandeep Silwal, and Tal Wagner.
+\newblock Exponentially improving the complexity of simulating the
+  weisfeiler-lehman test with graph neural networks.
+\newblock In {\em NeurIPS}, 2022.
+
+\bibitem{DBLP:conf/stoc/AamandKT21}
+Anders Aamand, Jakob B{\ae}k~Tejs Knudsen, and Mikkel Thorup.
+\newblock Load balancing with dynamic set of balls and bins.
+\newblock In {\em 53rd Annual {ACM} {SIGACT} Symposium on Theory of Computing,
+  STOC 2021}, pages 1262--1275. {ACM}, 2021.
+
+\bibitem{contactgraphs}
+Anders Aamand, Mikkel Abrahamsen, Jakob B{\ae}k~Tejs Knudsen, and Peter
+  Michael~Reichstein Rasmussen.
+\newblock Classifying convex bodies by their contact and intersection graphs.
+\newblock In {\em 37th International Symposium on Computational Geometry, SoCG
+  2021}, volume 189 of {\em LIPIcs}, pages 3:1--3:16, 2021.
+
+\bibitem{tabperm}
+Anders Aamand, Jakob B{\ae}k~Tejs Knudsen, Mathias B{\ae}k~Tejs Knudsen, Peter
+  Michael~Reichstein Rasmussen, and Mikkel Thorup.
+\newblock Fast hashing with strong concentration bounds.
+\newblock In {\em Proccedings of the 52nd Annual {ACM} {SIGACT} Symposium on
+  Theory of Computing, {STOC} 2020}, pages 1265--1278. {ACM}, 2020.
+
+\bibitem{nonemptybins}
+Anders Aamand and Mikkel Thorup.
+\newblock Non-empty bins with simple tabulation hashing.
+\newblock In {\em Proceedings of the Thirtieth Annual {ACM-SIAM} Symposium on
+  Discrete Algorithms, {SODA} 2019}, pages 2498--2512, 2019.
+
+\bibitem{dchoices}
+Anders Aamand, Mathias B.~T. Knudsen, and Mikkel Thorup.
+\newblock Power of $d$ choices with simple tabulation.
+\newblock In {\em 45th International Colloquium on Automata, Languages, and
+  Programming, {ICALP} 2018}, pages 5:1--5:14, 2018.
+
+\bibitem{trailorientations}
+Anders Aamand, Niklas Hjuler, Jacob Holm, and Eva Rotenberg.
+\newblock One-way trail orientations.
+\newblock In {\em 45th International Colloquium on Automata, Languages, and
+  Programming, {ICALP} 2018}, pages 6:1--6:13, 2018.
+
+\bibitem{diskinbcccurve}
+Anders Aamand, Mikkel Abrahamsen, and Mikkel Thorup.
+\newblock Disks in curves of bounded convex curvature.
+\newblock {\em Am. Math. Mon.}, 127(7):579--593, 2020.
+
+\end{thebibliography}

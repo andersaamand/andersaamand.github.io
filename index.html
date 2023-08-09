@@ -29,6 +29,37 @@
       a, a:hover{
         text-decoration: none;
       }
+      /* Basic styling for the sidebar */
+        .sidebar {
+            float: right;
+            width: 20%; /* Adjust the width as needed */
+            padding: 20px;
+            background-color: #f0f0f0;
+            box-sizing: border-box;
+        }
+        
+        /* Styling for the coauthor links */
+        .coauthor-link {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 15px; /* Smaller font size */
+            text-decoration: none;
+            color: blue;
+        }
+
+        /* Change link color on hover */
+        .coauthor-link:hover {
+            color: darkblue; /* Set link color on hover */
+        }
+        
+
+
+        /* Style for the main content */
+        .main-content {
+            margin-right: 25%; /* Make space for the sidebar */
+            padding: 20px;
+            box-sizing: border-box;
+        }
 
     </style>
   </head>
@@ -39,7 +70,7 @@
     <h1 class="display-5 me-auto">Anders Aamand</h1>
     <ul class="nav me-0 mb-2 mb-md-0 fs-5">
           <li class="nav-item">
-        <a class="nav-link active" href="https://andersaamand.com/cv.pdf">CV</a>
+        <a href="CV/CV.pdf" target="_blank">CV</a>
       </li>
     </ul>
   </header>
@@ -49,52 +80,186 @@
         <div class="row">
           <div class="col">
             <p class="lead">
-              Postdoctoral Fellow<br />
+              Postdoctoral Associate<br />
               Computer Science & Artificial Intelligence Laboratory<br />
               MIT
             </p>
             <p>
-              Email: andersaamanda@gmail.com<br />
+              Email: {last name}@mit.edu<br />
             </p>
             <p>
-              I am a great Dane. This is how to insert links: My host is <a href="https://people.csail.mit.edu/indyk/">Piotr </a>.  blah blah blah
+              Hi! I'm a postdoc at MIT where I'm fortunate to be working with <a href="https://people.csail.mit.edu/indyk/">Piotr Indyk </a> and his clever students. Before arriving here, I completed my PhD at the University of Copenhagen under the supervision of <a href="https://sites.google.com/view/mikkel-abrahamsen">Mikkel Abrahamsen</a> and <a href="http://hjemmesider.diku.dk/~mthorup/">Mikkel Thorup </a> . Below you will find an overview of my research interest as well as a list of publications
             </p>
           </div>
           <div class="col-sm-4">
             <img src="photo.png" class="img-fluid rounded" alt="Anders Aamand">
           </div>
+
         </div>
     </div>
 
     <hr class="col-3 col-md-2 mb-4">
 
     <div class="mb-5">
-      <h4>Research interests</h4>
-      <p>write stuff here</p>
+      <h4>Research Interests</h4>
+      <p>I'm broadly interested in theoretical computer science. Lately, I've been occupied with problems within learning-augmented algorithms, streaming, and distribution testing. I am also interested in designing hash functions and hashing based algortihms with theoretical guarantees. Finally, I enjoy working on various problems within computational geometry. </p>
     </div>
 
-    <h4>Selected publications</h4>
-    <p>A full list of my publications can be found on <a href="https://dblp.org/pid/205/2416.html">DBLP</a> and <a href="https://scholar.google.com/citations?user=WpIvLroAAAAJ&hl=en">Google Scholar</a>.</p>
+<div class="sidebar">
+        <h2>Coauthors</h2>
+        <a class="coauthor-link" href="https://sites.google.com/view/mikkel-abrahamsen">Mikkel Abrahamsen</a>
+        <a class="coauthor-link" href="https://thomasahle.com/">Thomas D. Ahle</a>
+        <a class="coauthor-link" href="https://web.math.princeton.edu/~nalon/">Noga Alon</a>
+        <a class="coauthor-link" href="https://www.cs.columbia.edu/~andoni/">Alexandr Andoni</a>
+        <a class="coauthor-link" href="https://di.ku.dk/english/staff/vip/?pure=en/persons/685696">Lorenzo Beretta</a>
+        <a class="coauthor-link" href="https://people.csail.mit.edu/justc//">Justin Y. Chen</a>
+        <a class="coauthor-link" href="https://sites.google.com/view/debaratidas/home">Debarati Das</a>
+        <a class="coauthor-link" href="https://scholar.google.com/citations?user=C0ILIjEAAAAJ&hl=en">Niklas Hjuler</a>
+        <a class="coauthor-link" href="https://di.ku.dk/english/staff/vip/?pure=en/persons/42387">Jacob Holm</a>
+        <a class="coauthor-link" href="https://di.ku.dk/english/staff/?pure=en/persons/493157">Jakob B. T. Houen</a>
+        <a class="coauthor-link" href="https://people.csail.mit.edu/indyk/">Piotr Indyk</a>
+        <a class="coauthor-link" href="https://scholar.google.pl/citations?user=A0BLu04AAAAJ&hl=pl">Adam Karczmarz</a>
+        <a class="coauthor-link" href="https://people.mpi-inf.mpg.de/~kipouridis/">Evangelos Kipouridis</a>
+        <a class="coauthor-link" href="https://www.ibr.cs.tu-bs.de/users/kleist/">Linda Kleist</a>
+        <a class="coauthor-link" href="https://scholar.google.dk/citations?user=WhS6ZQ8AAAAJ&hl=da">Mathias B. T. Knudsen</a>
+        <a class="coauthor-link" href="https://research.google/people/105517/">Jakub Łącki</a>
+        <a class="coauthor-link" href="https://sites.google.com/view/shyamnarayanan/home">Shyam Narayanan</a>
+        <a class="coauthor-link" href="https://www.ccs.neu.edu/home/hlnguyen/">Huy Lê Nguyễn</a>
+        <a class="coauthor-link" href="https://sites.google.com/view/nikosparotsidis">Nikos Parotsidis</a>
+        <a class="coauthor-link" href="https://di.ku.dk/english/staff/?pure=en/persons/462256">Peter M. R. Rasmussen</a>
+        <a class="coauthor-link" href="http://www2.compute.dtu.dk/~erot/">Eva Rotenberg</a>
+        <a class="coauthor-link" href="https://people.csail.mit.edu/ronitt/">Ronitt Rubinfeld</a>
+        <a class="coauthor-link" href="https://nicholasschiefer.com/">Nicholas Schiefer</a>
+        <a class="coauthor-link" href="http://hjemmesider.diku.dk/~mthorup/">Mikkel Thorup</a>
+        <a class="coauthor-link" href="https://sandeepsilwal.com/">Sandeep Silwal</a>
+        <a class="coauthor-link" href="http://www.mit.edu/~vakilian/">Ali Vakilian</a>
+        <a class="coauthor-link" href="https://www.mit.edu/~talw/">Tal Wagner</a>      
+    </div>
 
-    <h6>Hashing</h6>
+
+
+
+    <h4>Publications</h4>
+    <p>A list of my publications can also be found on <a href="https://dblp.org/pid/205/2416.html">DBLP</a> and <a href="https://scholar.google.com/citations?user=WpIvLroAAAAJ&hl=en">Google Scholar</a>.</p>
+
+
+    <h6> Machine Learning and Learning-Augmented Algorithms</h6>
+
+
     <ul>
-    <li><a href="https://arxiv.org/abs/1905.00369">Fast hashing with Strong Concentration Bounds</a> <br>
-      Anders Aamand, Jakob Knudsen, Mathias Knudsen, Peter Rasmussen, Mikkel Thorup <br>
-    <em>STOC</em> 2020</li>
+    <li><a href="https://arxiv.org/abs/2211.03232"> Exponentially Improving the Complexity of Simulating the Weisfeiler-Lehman Test with <br> Graph Neural Networks</a> <br> 
+      Anders Aamand, Justin Y. Chen, Piotr Indyk, Shyam Narayanan, Ronitt Rubinfeld, <br> Nicholas Schiefer, Sandeep Silwal, Tal Wagner<br>
+    <em>NeurIPS</em> 2022</li>
     </ul>
 
-    <h6>Machine Learning</h6>
     <ul>
-    <li><a href="https://arxiv.org/abs/1905.00369">Fast hashing with Strong Concentration Bounds</a> <br>
-      Anders Aamand, Jakob Knudsen, Mathias Knudsen, Peter Rasmussen, Mikkel Thorup <br>
-    <em>STOC</em> 2020</li>
-      <li><a href="https://arxiv.org/abs/1905.00369">Fast hashing with Strong Concentration Bounds</a> <br>
-      Anders Aamand, Jakob Knudsen, Mathias Knudsen, Peter Rasmussen, Mikkel Thorup <br>
-    <em>STOC</em> 2020</li>
+    <li><a href="https://arxiv.org/abs/2110.11439">(Optimal) Online Bipartite Matching with Degree Information</a> <br> 
+      Anders Aamand, Justin Y. Chen, Piotr Indyk<br>
+    <em>NeurIPS</em> 2022</li>
     </ul>
 
+    <ul>
+    <li><a href="https://arxiv.org/abs/1908.05198">(Learned) Frequency Estimation Algorithms under Zipfian Distribution</a> <br> 
+      Anders Aamand, Ali Vakilian, Piotr Indyk<br>
+    <em>ArXiV</em> 2019</li>
+    </ul>
+
+
+
+    <h6>Hashing Based Algorithms and Data Structures</h6>
+
+    <ul>
+    <li><a href="https://arxiv.org/abs/2306.11312">Data Structures for Density Estimation</a> <br> 
+      Anders Aamand, Alexandr Andoni, Justin Y. Chen, Piotr Indyk, Shyam Narayanan, Sandeep Silwal
+       <br>
+    <em>ICML</em> 2023</li>
+    </ul>
+
+    <ul>
+    <li><a href="https://www.vldb.org/pvldb/vol15/p3989-kipouridis.pdf">No Repetition: Fast and Reliable Sampling with Highly Concentrated Hashing</a> <br> 
+      Anders Aamand, Debarati Das, Evangelos Kipouridis, Jakob B. T. Houen, Peter M. R. Rasmussen, Mikkel Thorup <br>
+    <em>PVLDB</em> 2022</li>
+    </ul>
+
+
+    <ul>
+    <li><a href="https://arxiv.org/abs/2104.05093">Load Balancing with Dynamic Set of Balls and Bins</a> <br> 
+      Anders Aamand, Jakob B. T. Houen, Mikkel Thorup <br>
+    <em>STOC</em> 2021</li>
+    </ul>
     
-  </main>
+    <ul>
+    <li><a href="https://arxiv.org/abs/1905.00369">Fast hashing with Strong Concentration Bounds</a> <br>
+      Anders Aamand, Jakob B. T. Houen, Mathias B. T. Knudsen, Peter M. R. Rasmussen, Mikkel Thorup <br>
+    <em>STOC</em> 2020</li>
+    </ul>
+
+
+    <ul>
+    <li><a href="https://arxiv.org/abs/1810.13187">Non-empty bins with simple tabulation hashing</a> <br> 
+      Anders Aamand, Mikkel Thorup <br>
+    <em>SODA</em> 2019</li>
+    </ul>
+
+
+    <ul>
+    <li><a href="https://arxiv.org/abs/1804.09684">Power of d Choices with Simple Tabulation</a> <br> 
+      Anders Aamand, Mathias B. T. Knudsen, Mikkel Thorup <br>
+    <em>ICALP</em> 2018</li>
+    </ul>
+
+
+
+
+
+    <h6>(Computational) Geometry</h6>
+    <ul>
+    <li><a href="https://arxiv.org/abs/2011.10983">Tiling with Squares and Packing Dominos in Polynomial Time</a> <br>
+      Anders Aamand, Mikkel Abrahamsen, Thomas Ahle, Peter M. R. Rasmussen <br>
+    <em>Transactions on Algorithms </em> 2023 (appeared at <em>SoCG</em> 2022)</li>
+    </ul>
+
+    <ul>
+      <li><a href="https://arxiv.org/abs/2112.03791">Online Sorting and Translational Packing of Convex Polygons</a> <br>
+      Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta, Linda Kleist <br>
+    <em>SODA</em> 2023</li>
+    </ul>
+
+    <ul>
+      <li><a href="https://arxiv.org/abs/1902.01732">Classifying Convex Bodies by their Contact and Intersection Graphs </a> <br>
+      Anders Aamand, Mikkel Abrahamsen, Jakob B. T. Houen, Peter M. R. Rasmussen <br>
+    <em>SoCG</em> 2021</li>
+    </ul>
+
+    <ul>
+      <li><a href="https://arxiv.org/abs/1909.00852">Disks in Curves of Bounded Convex Curvature</a> <br>
+      Anders Aamand, Mikkel Abrahamsen, Mikkel Thorup <br>
+    <em>American Mathematical Monthly</em> 2020</li>
+    </ul>
+
+
+    <h6>Graph Algorithms</h6>
+    <ul>
+    <li><a href="https://arxiv.org/abs/2111.09376">Optimal Decremental Connectivity in Non-Sparse Graphs</a> <br>
+      Anders Aamand, Adam Karczmarz, Jakub Łącki, Nikos Parotsidis, Peter M. R. Rasmussen, Mikkel Thorup <br>
+    <em>ICALP</em> 2023</li>
+      <li><a href="https://arxiv.org/abs/1708.07389">One-Way Trail Orientations</a> <br>
+      Anders Aamand, Niklas Hjuler, Jacob Holm, Eva Rotenberg <br>
+    <em>ICALP</em> 2018</li>
+    </ul>
+
+
+    <h6>Miscellaneous</h6>
+    <ul>
+    <li><a href="https://arxiv.org/abs/2303.01453">Improved Space Bounds for Learning with Experts</a> <br>
+      Anders Aamand, Justin Y. Chen, Huy Lê Nguyễn, Sandeep Silwal <br>
+    <em>ACDA</em> 2023 (poster) </li> 
+      <li><a href="https://arxiv.org/abs/2104.03721">On Sums of Monotone Random Integer Variables</a> <br>
+      Anders Aamand, Noga Alon, Jakob Bæk Tejs Knudsen, Mikkel Thorup <br>
+    <em>Electronic Communications of Probability</em> 2022</li>
+    </ul>
+    
+
 </div>
 
 
