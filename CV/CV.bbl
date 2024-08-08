@@ -1,5 +1,18 @@
 \begin{thebibliography}{10}
 
+\bibitem{2023Improvedfreqest}
+Anders Aamand, Justin~Y. Chen, Huy~L{\^{e}} Nguyen, Sandeep Silwal, and Ali
+  Vakilian.
+\newblock Improved frequency estimation algorithms with and without
+  predictions.
+\newblock In {\em NeurIPS}, 2023 (\textbf{Spotlight}).
+
+\bibitem{2023IPclustering}
+Anders Aamand, Justin~Y. Chen, Allen Liu, Sandeep Silwal, Pattara Sukprasert,
+  Ali Vakilian, and Fred Zhang.
+\newblock Constant approximation for individual preference stable clustering.
+\newblock In {\em NeurIPS}, 2023 (\textbf{Spotlight}).
+
 \bibitem{2023Density}
 Anders Aamand, Alexandr Andoni, Justin~Y. Chen, Piotr Indyk, Shyam Narayanan,
   and Sandeep Silwal.
