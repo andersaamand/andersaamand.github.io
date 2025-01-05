@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{2024StatisticalComputational}
+Anders Aamand, Alexandr Andoni, Justin~Y. Chen, Piotr Indyk, Shyam Narayanan,
+  Sandeep Silwal, and Haike Xu.
+\newblock Statistical-computational trade-offs for density estimation.
+\newblock In {\em NeurIPS}, 2024.
+
 \bibitem{2023Improvedfreqest}
 Anders Aamand, Justin~Y. Chen, Huy~L{\^{e}} Nguyen, Sandeep Silwal, and Ali
   Vakilian.
@@ -39,11 +45,6 @@ Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta, and Linda Kleist.
 \newblock Online sorting and translational packing of convex polygons.
 \newblock In {\em Proceedings of the 2023 {ACM-SIAM} Symposium on Discrete
   Algorithms, {SODA}, 2023}, pages 1806--1833. {SIAM}, 2023.
-
-\bibitem{2023Experts}
-Anders {Aamand}, Justin~Y. {Chen}, Huy~L{\^e} {Nguyen}, and Sandeep {Silwal}.
-\newblock {Improved Space Bounds for Learning with Experts}.
-\newblock {\em arXiv e-prints}, page arXiv:2303.01453, poster at ACDA 2023.
 
 \bibitem{2022NoRepetition}
 Anders Aamand, Debarati Das, Evangelos Kipouridis, Jakob B{\ae}k~Tejs Knudsen,
