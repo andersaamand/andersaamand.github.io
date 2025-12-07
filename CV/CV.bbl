@@ -1,5 +1,19 @@
 \begin{thebibliography}{10}
 
+\bibitem{2025DPGomoryHu}
+Anders Aamand, Justin~Y. Chen, Mina Dalirrooyfard, Slobodan Mitrovi{\'c}, Yuriy
+  Nevmyvaka, Sandeep Silwal, and Yinzhan Xu.
+\newblock Differentially private gomory-hu trees.
+\newblock In {\em The Thirty-ninth Annual Conference on Neural Information
+  Processing Systems, NeurIPS}, 2025.
+
+\bibitem{2025DPQuantiles}
+Jacob Imola, Fabrizio Boninsegna, Hannah Keller, Anders Aamand, Amrita~Roy
+  Chowdhury, and Rasmus Pagh.
+\newblock Differentially private quantiles with smaller error.
+\newblock In {\em The Thirty-ninth Annual Conference on Neural Information
+  Processing Systems, NeurIPS}, 2025.
+
 \bibitem{2025TraceReconstruction}
 Anders Aamand, Allen Liu, and Shyam Narayanan.
 \newblock Near-optimal trace reconstruction for mildly separated strings.
